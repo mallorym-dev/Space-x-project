@@ -1,0 +1,98 @@
+#space-x {
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    height: 300px;
+    width: 100vw;
+
+}
+
+.big-links {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 40vw;
+    justify-content: space-around;
+}
+
+.little-links {
+    justify-content: space-around;
+    width: 30vw;
+    display: flex;
+    align-items: right;
+    margin: 30px;
+}
+
+.spaceship {
+    height: 400px;
+    width: 100vw;
+    background-color: blue;
+}
+
+.subtitle {
+    height: 100px;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.bottom-boxes {
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    justify-content: space-around;
+    display: flex;
+}
+
+.box {
+    flex-direction: column;
+    height: 190px;
+    width: 190px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    float: top;
+
+}
+
+.img2 {
+    height: 100px;
+    width: 150px;
+    float: wrap-around;
+}
+
+.img3 {
+    height: 100px;
+    width: 150px;
+    float: top;
+}
+
+.img4 {
+    height: 100px;
+    width: 150px;
+}
+
+.footer {
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    padding: 10px;
+}
+
